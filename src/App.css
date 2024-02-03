@@ -61,3 +61,20 @@
   object-fit: contain;
 }
 
+form > input, textarea {
+  outline: none;
+  border: 1px solid;
+  padding: 4px;
+}
+
+.error-inp {
+  border-color: red;
+}
+
+.error {
+  color: red;
+}
+
+form > div{
+  display: inline;
+}
