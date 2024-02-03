@@ -44,9 +44,8 @@
 
 .posts-container {
   display: flex;
-  place-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-shrink: 0;
 }
 
 .post-card {

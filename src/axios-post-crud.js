@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   baseURL: "https://657ec91c3e3f5b1894642141.mockapi.io",
-  timeout: 1000,
+  timeout: 10000,
   headers: { batch: "B52WETAMIL" },
 });
 
